@@ -37,6 +37,7 @@ $(document).ready(function(){
 
 	$(document).keydown(function() {
 		if(event.which == 88){
+			$('#street-sound')[0].pause();
 			playCool();
 			$(".ryu-action").hide();
 			$(".ryu-cool").show();
